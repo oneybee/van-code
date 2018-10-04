@@ -12,6 +12,14 @@ body {
 ::selection {
   background-color: rgb(255, 240, 146);
 }
+a {
+  text-decoration: none;
+  color:#c5c5c5;
+}
+a:hover {
+  text-decoration: none;
+  color: #1106ff;
+}
 
 .header {
   /* background-color: red; */
@@ -24,6 +32,15 @@ body {
   color: #1106ff;
   cursor: pointer;
 }
+/* .after01,
+::after{
+  background: #1106ff;
+  left: 2px;
+  bottom: -7px;
+  width: 15px;
+  height: 1px;
+  display:inline-block;
+} */
 /* .menu:hover,
 after {
   content: "";
